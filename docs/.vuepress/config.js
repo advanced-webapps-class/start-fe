@@ -12,6 +12,17 @@ module.exports = {
     editLinks: true,
     sidebar: [
       {
+        title: '준비하기',
+        collapsable: true,
+        children: [
+          '/ready/',
+          '/ready/chrome',
+          '/ready/vscode',
+          '/ready/github',
+          '/ready/nodejs',
+        ],
+      },
+      {
         title: 'JS 기본',
         collapsable: true,
         children: [
@@ -143,11 +154,11 @@ module.exports = {
         collapsable: true,
         children: ['/perf/', '/perf/code', '/perf/web'],
       },
-      {
-        title: 'GIT',
-        collapsable: true,
-        children: ['/git/', '/git/basic'],
-      },
+      // {
+      //   title: 'GIT',
+      //   collapsable: true,
+      //   children: ['/git/', '/git/basic'],
+      // },
     ],
     nav: [
       {
