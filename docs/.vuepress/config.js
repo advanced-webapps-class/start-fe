@@ -20,6 +20,7 @@ module.exports = {
           '/ready/vscode',
           '/ready/github',
           '/ready/nodejs',
+          '/ready/html',
         ],
       },
       {
