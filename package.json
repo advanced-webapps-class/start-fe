@@ -9,7 +9,7 @@
   "scripts": {
     "start": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "surge dist start-fe.surge.sh"
+    "deploy": "npm run build && surge dist start-fe.surge.sh"
   },
   "keywords": [],
   "author": "",
