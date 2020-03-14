@@ -18,7 +18,7 @@ module.exports = {
           '/ready/',
           '/ready/chrome',
           '/ready/vscode',
-          '/ready/github',
+          '/ready/git',
           '/ready/nodejs',
           '/ready/html',
         ],

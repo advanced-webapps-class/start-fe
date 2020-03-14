@@ -13,6 +13,8 @@ index.html
     <title>Test</title>
   </head>
   <body>
+    <h1>Hello</h1>
+
     <script src="app.js"></script>
   </body>
 </html>
