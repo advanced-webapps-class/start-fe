@@ -23,7 +23,7 @@ module.exports = {
         ],
       },
       {
-        title: 'JS 기본',
+        title: 'JS 기본',
         collapsable: true,
         children: [
           '/js/',
