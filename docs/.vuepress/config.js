@@ -34,6 +34,7 @@ module.exports = {
           '/js/operator',
           '/js/object',
           '/js/array',
+          '/js/array-method',
           '/js/type-conversion',
           '/js/global',
           '/js/statement',
