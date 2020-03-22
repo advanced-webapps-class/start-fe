@@ -122,6 +122,18 @@ var words = ['c', 'b', 'a'];
 console.log(words.sort());
 ```
 
+## findIndex
+
+주어진 판별 함수를 만족하는 배열의 첫 번째 요소에 대한 인덱스를 반환
+
+```js
+var words = ['a', 'b', 'c'];
+var findIndex = words.findIndex(function(word) {
+  return word === 'a';
+});
+console.log(findIndex);
+```
+
 ## every
 
 배열 안의 모든 요소가 주어진 판별 함수를 통과하는지 테스트
