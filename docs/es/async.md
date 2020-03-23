@@ -1,12 +1,10 @@
 # async, await
 
-
 ```js
 async function myFirstAsyncFunction() {
   try {
     const fulfilledValue = await promise;
-  }
-  catch (rejectedValue) {
+  } catch (rejectedValue) {
     // …
   }
 }

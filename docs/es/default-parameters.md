@@ -1,9 +1,10 @@
 # 기본 매개변수
-> default function parameter
+
+> Default Function Parameter
 
 ```js
 function multiply(a, b = 1) {
-  return a*b;
+  return a * b;
 }
 ```
 

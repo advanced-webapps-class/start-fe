@@ -1,4 +1,5 @@
-# 클로저 
+# 클로저
+
 > 내부함수가 외부함수의 맥락(context)에 접근할 수 있는 것
 
 - 지역 변수(Local Variable)의 참조(by Reference)를 가진 함수
@@ -6,12 +7,12 @@
 - 생성 당시의 환경을 간직한 있는 코드 블록
 
 ```js
-var example = function(){
-    var i = 1;
-    return function(){
-        alert(i++);
-    };
-}();
+var example = (function() {
+  var i = 1;
+  return function() {
+    alert(i++);
+  };
+})();
 
 /*
 var example = function(){
@@ -19,16 +20,16 @@ var example = function(){
 }
 */
 
-example(); //계속 호출 
+example(); //계속 호출
 ```
 
 ```js
-var list = document.getElementsByTagName("li");
+var list = document.getElementsByTagName('li');
 
-for(var i=0; i < list.length; i++) {
-    list[i].onclick = function() {
-        alert( i+1 );
-    }
+for (var i = 0; i < list.length; i++) {
+  list[i].onclick = function() {
+    alert(i + 1);
+  };
 }
 ```
 

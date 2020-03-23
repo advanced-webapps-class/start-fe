@@ -1,5 +1,6 @@
 # 구조 분해 할당
-> Destructuring assignment
+
+> Destructuring Assignment
 
 ```js
 //es5
@@ -11,8 +12,18 @@ var col2 = cols[1];
 
 //es6
 const { team, area } = obj;
+const [col1, col2] = cols;
+const [, cols2] = cols;
 
-const [ col1, col2 ] = cols;
+// es5
+function getArea(options) {
+  return options.width * options.height;
+}
+
+// es6
+function getArea({ width, height }) {
+  return width * height;
+}
 ```
 
 :::tip Link
