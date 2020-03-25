@@ -1,6 +1,8 @@
 # 데이터 타입
 
-## 숫자 - Number
+## Number
+
+> 숫자
 
 ```js
 var count = 5;
@@ -18,14 +20,18 @@ var count = 5;
 | Number.POSITIVE_INFOINITY | 양의 무한대를 표현하는 특수한 값      |
 |  Number.NEGATIVE_INFINITY | 음의 무한대를 표현하는 특수한 값      |
 
-## 문자열 - String
+## String
+
+> 문자열
 
 ```js
 var nick = "my nick is 'fe'";
 var homepage = 'www.kakaocorp.com';
 ```
 
-## 부울 - Boolean
+## Boolean
+
+> 불린
 
 ```js
 var isMan = true; // true | false
@@ -37,7 +43,9 @@ console.log(!!'test'); // true
 
 제어 구조내에서 주로 사용 (if문 , for문)
 
-## 함수 - Function
+## Function
+
+> 함수
 
 ```js
 var log = function(str) {
@@ -51,7 +59,9 @@ function log(str) {
 js코드로 조작할수 있는 형태의 값
 변수나 배열, 객체에 저장가능, 전달인자로도 사용
 
-## 객체 - Object
+## Object
+
+> 객체
 
 ```js
 var image = {}; // image = new Object();
@@ -68,7 +78,9 @@ image = { width: 1, height: 2 };
 
 이름붙은 값(프로퍼티) 들이 모임
 
-## 배열 - Array
+## Array
+
+> 배열
 
 ```js
 image = []; // new Array();
@@ -83,7 +95,9 @@ image = ['1.jpg', 2, { name: '3.jpg' }];
 - 객체 : 데이터값에 이름
 - 배열 : 데이터값에 번호(index)
 
-### 널 - null
+### null
+
+> 널
 
 ```js
 var nick = null;
@@ -91,7 +105,9 @@ var nick = null;
 
 아무런 값도 나타내지 않는 특수한 키워드
 
-## 정의 되지 않음 - undefined
+## undefined
+
+> 정의 되지 않음
 
 ```js
 var nick; //undefined

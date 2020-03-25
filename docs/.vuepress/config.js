@@ -36,6 +36,7 @@ module.exports = {
           '/js/array',
           '/js/array-method',
           '/js/type-conversion',
+          '/js/primitive-reference',
           '/js/global',
           '/js/statement',
           '/js/scope',
