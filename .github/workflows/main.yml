@@ -1,0 +1,30 @@
+name: Deploy 
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ master ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  deploy:
+    name: 'Deploy'
+    runs-on: ubuntu-18.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Deploy Surge
+        uses: yohix/deploy-surge@v1.0.0
+        with:
+          # The authentication token for Surge
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+          # The domain name in which you want to deploy, if empty random name will be generated
+          DOMAIN_NAME: start-fe.surge.sh
+          # Build directory in which you want to deploy
+          BUILD_DIRECTORY: dist
