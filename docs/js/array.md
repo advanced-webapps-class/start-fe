@@ -15,7 +15,7 @@ for (var i = 0; i < arr.length; i++) {
 
 ## CRUD
 
-### Crate
+### Create
 
 ```js
 var todos = ['운동'];
