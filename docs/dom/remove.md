@@ -22,6 +22,6 @@ el.remove();
 
 <script>
 const list = document.getElementById('list'); 
-list.removeChild(list.childNodes[0]);
+list.removeChild(list.children[0]);
 </script>
 ```
