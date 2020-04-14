@@ -5,6 +5,14 @@ module.exports = {
   description: 'FrontEnd 시작하기',
   cache: false,
   port: 8087,
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        ga: 'UA-161926743-2',
+      },
+    ],
+  ],
   themeConfig: {
     repo: 'https://github.com/advanced-webapps-class/start-fe',
     docsDir: 'docs',
