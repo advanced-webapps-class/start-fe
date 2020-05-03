@@ -18,6 +18,7 @@ fetch('issue.json')
 
 
 ::: tip Link
+- [Public Apis](https://github.com/public-apis/public-apis)
 - [예제](https://developers.google.com/web/updates/2015/03/introduction-to-fetch)
 - [WHATWG](https://ko.wikipedia.org/wiki/WHATWG) [Fetch standard](https://fetch.spec.whatwg.org/)
 :::
