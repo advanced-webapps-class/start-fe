@@ -5,7 +5,7 @@
 
 ## 글로벌 설치후 테스트
 
-```console
+```
 $ npm install --global prettier
 $ prettier --write // 현재 디렉토리의 파일들 Prettier 적용
 ```

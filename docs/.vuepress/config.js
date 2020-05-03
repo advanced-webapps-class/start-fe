@@ -157,7 +157,7 @@ module.exports = {
           '/library/react',
           '/library/sass',
           '/library/jq',
-          '/library/pettier',
+          '/library/prettier',
           '/library/eslint',
         ],
       },
