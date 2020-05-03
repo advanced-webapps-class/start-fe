@@ -1,11 +1,11 @@
-# Prettie
+# Prettier
 
 - 코드 포맷터
 - https://prettier.io
 
 ## 글로벌 설치후 테스트
 
-```
+```bash
 $ npm install --global prettier
 $ prettier --write // 현재 디렉토리의 파일들 Prettier 적용
 ```

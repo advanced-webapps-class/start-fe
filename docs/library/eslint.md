@@ -5,7 +5,7 @@
 
 ## 로컬 프로젝트에 설치
 
-```
+```bash
 $ npm install eslint --save-dev
 $ npx eslint --init  // .eslintrc.js 파일생성
 $ npx eslint test.js

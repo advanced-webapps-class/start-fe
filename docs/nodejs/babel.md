@@ -1,11 +1,12 @@
 # Babel.js
+
 > Babel is a JavaScript compiler, ES6 -> ES5
 
 [babeljs.io](https://babeljs.io/)
 
 ```js
 // Babel Input: ES2015 arrow function
-[1, 2, 3].map((n) => n + 1);
+[1, 2, 3].map(n => n + 1);
 
 // Babel Output: ES5 equivalent
 [1, 2, 3].map(function(n) {
@@ -13,7 +14,7 @@
 });
 ```
 
-```
+```bash
 $ npm install --save-dev @babel/core @babel/cli
 $ npx babel script.js
 ```

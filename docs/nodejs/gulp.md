@@ -1,17 +1,18 @@
-# Gulp 
-> Automate and enhance your workflow  
+# Gulp
+
+> Automate and enhance your workflow
 
 [gulpjs.com](https://gulpjs.com)
 
 ### `package.json` 생성
 
-```
-$ npm init 
+```bash
+$ npm init
 ```
 
-### gulp를 devDependencies 추가 
+### gulp를 devDependencies 추가
 
-```
+```bash
 $ npm install --save-dev gulp
 ```
 
@@ -27,11 +28,11 @@ gulp.task('default', function() {
 });
 ```
 
-
 ### 플러그인 설치
+
 https://github.com/terinjokes/gulp-uglify
 
-```
+```bash
 $ npm install --save-dev gulp-uglify
 ```
 
@@ -42,11 +43,12 @@ var gulp = require('gulp');
 var uglify = require('gulp-uglify');
 
 gulp.task('js', function() {
-    var src = ['src/*.js'];
-    
-    return gulp.src(src)
-            .pipe(uglify())
-            .pipe(gulp.dest('all.js'))
+  var src = ['src/*.js'];
+
+  return gulp
+    .src(src)
+    .pipe(uglify())
+    .pipe(gulp.dest('all.js'));
 });
 ```
 

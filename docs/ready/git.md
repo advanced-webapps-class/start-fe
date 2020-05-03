@@ -12,7 +12,7 @@
 
 [git 설치](https://git-scm.com/)
 
-```
+```bash
 $ mkdir git-test
 $ cd git-test
 $ git init
