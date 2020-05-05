@@ -47,7 +47,7 @@ module.exports = {
 $ npx install-peerdeps --dev eslint-config-airbnb-base
 ```
 
-```js
+```diff
 // .eslintrc.js
 -  extends: 'eslint:recommended',
 +  extends: ['eslint:recommended', 'airbnb-base'],
@@ -59,7 +59,7 @@ $ npx install-peerdeps --dev eslint-config-airbnb-base
 $ npm install eslint-config-prettier --save-dev
 ```
 
-```js
+```diff
 // .eslintrc.js
 -  extends: ['eslint:recommended', 'airbnb-base'],
 +  extends: ['eslint:recommended', 'airbnb-base', 'prettier'],
