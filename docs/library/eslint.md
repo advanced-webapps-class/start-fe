@@ -38,3 +38,29 @@ module.exports = {
   },
 };
 ```
+
+## eslint-config-airbnb-base
+
+[airbnb 코딩 가이드](https://github.com/tipjs/javascript-style-guide) eslint
+
+```bash
+$ npx install-peerdeps --dev eslint-config-airbnb-base
+```
+
+```js
+// .eslintrc.js
+-  extends: 'eslint:recommended',
++  extends: ['eslint:recommended', 'airbnb-base'],
+```
+
+## eslint-config-prettier
+
+```bash
+$ npm install eslint-config-prettier --save-dev
+```
+
+```js
+// .eslintrc.js
+-  extends: ['eslint:recommended', 'airbnb-base'],
++  extends: ['eslint:recommended', 'airbnb-base', 'prettier'],
+```
