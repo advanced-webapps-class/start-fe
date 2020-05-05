@@ -1,7 +1,9 @@
 # Webpack
 > 모듈 Bundler
 
-[webpack.js.org](https://webpack.js.org/)
+
+- [webpack.js.org](https://webpack.js.org/)
+- [웹팩 핸드북](https://joshua1988.github.io/webpack-guide/)
 
 
 :::tip Link
