@@ -104,7 +104,7 @@ module.exports = {
           // '/http/cookie',
           '/http/caching',
           '/http/status-code',
-          '/http/curl',
+          '/http/tools',
         ],
       },
       {
