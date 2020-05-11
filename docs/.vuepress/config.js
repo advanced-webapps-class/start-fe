@@ -108,7 +108,7 @@ module.exports = {
         ],
       },
       {
-        title: 'Ajax',
+        title: 'HTTP스크립팅(Ajax)',
         collapsable: true,
         children: [
           '/ajax/',
