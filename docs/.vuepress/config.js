@@ -121,6 +121,16 @@ module.exports = {
         ],
       },
       {
+        title: '모듈',
+        collapsable: true,
+        children: [
+          '/module/',
+          '/module/esm',
+          '/module/commonjs',
+          '/module/build',
+        ],
+      },
+      {
         title: 'Node.js',
         collapsable: true,
         children: [
