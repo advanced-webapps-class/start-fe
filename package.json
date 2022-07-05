@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "mermaid": "^8.4.8",
+    "mermaid": "^9.1.2",
     "vuepress": "^1.4.0"
   },
   "dependencies": {
