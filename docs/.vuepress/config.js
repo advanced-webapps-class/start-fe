@@ -59,20 +59,6 @@ module.exports = {
         ],
       },
       {
-        title: 'DOM',
-        collapsable: true,
-        children: [
-          '/dom/',
-          '/dom/dom',
-          '/dom/bom',
-          '/dom/selector',
-          '/dom/create',
-          '/dom/insert',
-          '/dom/remove',
-          '/dom/event',
-        ],
-      },
-      {
         title: 'ECMA스크립트',
         collapsable: true,
         children: [
@@ -92,6 +78,21 @@ module.exports = {
           // '/es/object'
         ],
       },
+      {
+        title: 'DOM',
+        collapsable: true,
+        children: [
+          '/dom/',
+          '/dom/dom',
+          '/dom/bom',
+          '/dom/selector',
+          '/dom/create',
+          '/dom/insert',
+          '/dom/remove',
+          '/dom/event',
+        ],
+      },
+ 
       {
         title: 'HTTP',
         collapsable: true,
