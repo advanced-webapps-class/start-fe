@@ -15,8 +15,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "mermaid": "^8.4.8",
-    "vuepress": "^1.4.0"
+    "mermaid": "^10.0.2",
+    "vuepress": "^1.9.9"
   },
   "dependencies": {
     "@vuepress/plugin-google-analytics": "^1.4.0"
