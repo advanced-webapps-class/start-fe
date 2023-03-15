@@ -16,7 +16,9 @@
   "license": "ISC",
   "devDependencies": {
     "mermaid": "^10.0.2",
-    "vuepress": "^1.9.9"
+    "surge": "^0.23.1",
+    "vuepress": "^1.9.9",
+    "vuepress-plugin-mermaidjs": "^2.0.0-beta.2"
   },
   "dependencies": {
     "@vuepress/plugin-google-analytics": "^1.4.0"

@@ -7,6 +7,7 @@ module.exports = {
   port: 8087,
   plugins: [
     [
+      'vuepress-plugin-mermaidjs',
       '@vuepress/google-analytics',
       {
         ga: 'UA-161926743-2',
