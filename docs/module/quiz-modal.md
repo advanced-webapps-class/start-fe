@@ -53,7 +53,6 @@
         <div class="close">X</div>
         <div class="content">안녕하세요</div>
       </div>
-      `
     </div>
   </body>
 </html>
@@ -61,7 +60,14 @@
 
 ## 모듈 사용법
 
+```html
+<button id="btn">모달 열기</button>
+<script src="./app.js"></script>
+```
+
 ```js
+// app.js
+// modal.js 구현
 import { openModal } from './modal.js';
 
 $btn.addEventListener('click', () => {
