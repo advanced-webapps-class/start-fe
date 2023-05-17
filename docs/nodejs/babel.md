@@ -6,10 +6,10 @@
 
 ```js
 // Babel Input: ES2015 arrow function
-[1, 2, 3].map(n => n + 1);
+[1, 2, 3].map((n) => n + 1);
 
 // Babel Output: ES5 equivalent
-[1, 2, 3].map(function(n) {
+[1, 2, 3].map(function (n) {
   return n + 1;
 });
 ```
@@ -20,5 +20,6 @@ $ npx babel script.js
 ```
 
 :::tip Link
-[온라인 코드변환기](https://babeljs.io/en/repl.html)
+[babel repl](https://babeljs.io/en/repl.html)
+[swc repl](https://swc.rs/playground)
 :::

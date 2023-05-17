@@ -142,9 +142,11 @@ module.exports = {
           '/nodejs/npm',
           '/nodejs/module',
           '/nodejs/tool',
-          '/nodejs/gulp',
           '/nodejs/babel',
+          '/nodejs/vite',
+          '/nodejs/web-crawling',
           '/nodejs/webpack',
+          '/nodejs/gulp',
         ],
       },
       {
