@@ -147,6 +147,7 @@ module.exports = {
           '/nodejs/web-crawling',
           '/nodejs/webpack',
           '/nodejs/gulp',
+          '/nodejs/quiz-melon',
         ],
       },
       {
