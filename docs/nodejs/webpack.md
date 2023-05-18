@@ -7,6 +7,7 @@
 - [웹팩 핸드북](https://joshua1988.github.io/webpack-guide/)
 
 :::tip Link
-[JavaScript 모듈화 도구, webpack](https://d2.naver.com/helloworld/0239818)
-[번들러 속도 비교](https://bun.sh/blog/bun-bundler?cb)
-:::
+
+- [JavaScript 모듈화 도구, webpack](https://d2.naver.com/helloworld/0239818)
+- [번들러 속도 비교](https://bun.sh/blog/bun-bundler?cb)
+  :::
